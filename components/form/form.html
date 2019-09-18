@@ -1,0 +1,28 @@
+<form id="form" data-toggle="validator">
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email"
+               placeholder="Please enter your E-Mail here..." />
+        <div class="help-block with-errors"></div>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Text</label>
+        <input type="text" class="form-control" id="text" name="text"
+               placeholder="Please type text to search on Twitter..."
+               required
+                />
+        <div class="help-block with-errors"></div>
+    </div>
+
+    <button type="submit" class="btn btn-default">Search</button>
+
+</form>
+
+<script type="text/javascript" src="/components/form/form.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        FormScope.init();
+    });
+</script>

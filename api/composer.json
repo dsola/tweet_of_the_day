@@ -1,0 +1,16 @@
+{
+    "name": "dsola/tweet_of_the_day",
+    "description": "Check the tweet of the day.",
+    "authors": [
+        {
+            "name": "David Sola",
+            "email": "david@alt17.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^2.6",
+        "j7mbo/twitter-api-php": "^1.0",
+        "phpunit/phpunit": "^5.0",
+        "phpmailer/phpmailer": "^5.2"
+    }
+}
